@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main() {
-  name := ""
+	name := ""
 
-  fmt.Print("Please enter your name: ")
-  fmt.Scan(&name)
-  fmt.Println("Hello " + name)
+	fmt.Print("Please enter your name: ")
+	fmt.Scan(&name)
+	fmt.Println("Hello " + name)
 }
-
